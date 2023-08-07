@@ -1,0 +1,26 @@
+{
+    "RcmEobClaimMaster": [
+        {
+            "ClaimNumber": "10132F200 00",
+            "Patient": "Abigail E Cantrell",
+            "GroupID": "00519455",
+            "DateOfService ": "07/12/2023",
+            "PaidDate": "07/19/2023",
+            "Check": "189162642",
+            "Status": "Processed",
+            "SubmittedCharges": "$460.00",
+            "Paid": "$247.00",
+            "Letters": "",
+            "url": "https://sdrcmclaimsscrappersa.blob.core.windows.net/rcm-claims-res-blob/Revenue%20Cycle%20Management/Guardian/9IHG2N62A1/8a7f3sd254221edssd/main.pdf"
+        }
+    ],
+    "SearchDashboardFilter": [],
+    "EligibilityFiles": [
+        {
+            "fileName": "main.pdf",
+            "url": "https://sdrcmclaimsscrappersa.blob.core.windows.net/rcm-claims-res-blob/Revenue%20Cycle%20Management/Guardian/9IHG2N62A1/8a7f3sd254221edssd/main.pdf",
+            "description": "",
+            "sourceType": "PDF"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "RcmEobClaimMaster": [
+        {
+            "ClaimNumber": "06363F188 00",
+            "Patient": "Noah Simpson",
+            "GroupID": "00543484",
+            "DateOfService ": "07/05/2023",
+            "PaidDate": "07/07/2023",
+            "Check": "188944856",
+            "Status": "Processed",
+            "SubmittedCharges": "$715.00",
+            "Paid": "$220.00",
+            "Letters": "",
+            "url": "https://sdrcmclaimsscrappersa.blob.core.windows.net/rcm-claims-res-blob/Revenue%20Cycle%20Management/Guardian/U6TX2SDLQ3/8a7f3sd254221edssd/main.pdf"
+        }
+    ],
+    "RcmEobClaimDetail": [
+        {
+            "AltCode": "D2391",
+            "ToothNo": "19",
+            "DateOfService": "07/05/23",
+            "SubmittedCharge": "260.00",
+            "BenefitAmount": "88.00",
+            "ConsideredCharge": "110.00",
+            "DeductibleAmount": "",
+            "CoveredCharge": "110.00",
+            "CoveragePercent": "80%",
+            "Description": "Pst Composite1"
+        },
+        {
+            "AltCode": "D9230",
+            "ToothNo": "FM",
+            "DateOfService": "07/05/23",
+            "SubmittedCharge": "125.00",
+            "BenefitAmount": "0.00",
+            "ConsideredCharge": "59.00",
+            "DeductibleAmount": "",
+            "CoveredCharge": "0.00",
+            "CoveragePercent": "80%",
+            "Description": "N20"
+        },
+        {
+            "AltCode": "D2392",
+            "ToothNo": "K",
+            "DateOfService": "07/05/23",
+            "SubmittedCharge": "330.00",
+            "BenefitAmount": "132.00",
+            "ConsideredCharge": "165.00",
+            "DeductibleAmount": "",
+            "CoveredCharge": "165.00",
+            "CoveragePercent": "80%",
+            "Description": "Pst Composite2"
+        }
+    ]
+}

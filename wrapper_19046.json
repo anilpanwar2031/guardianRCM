@@ -1,0 +1,37 @@
+{
+    "RcmEobClaimMaster": [
+        {
+            "ClaimNumber": "06363F188 00",
+            "Patient": "Noah Simpson",
+            "GroupID": "00543484",
+            "DateOfService ": "07/05/2023",
+            "PaidDate": "07/07/2023",
+            "Check": "188944856",
+            "Status": "Processed",
+            "SubmittedCharges": "$715.00",
+            "Paid": "$220.00",
+            "Letters": "",
+            "url": "https://sdrcmclaimsscrappersa.blob.core.windows.net/rcm-claims-res-blob/Revenue%20Cycle%20Management/Guardian/U6TX2SDLQ3/8a7f3sd254221edssd/main.pdf",
+            "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+            "EligibilityVerificationId": 0,
+            "PatientId": "19046",
+            "RcmGridViewId": "25455",
+            "PMSSubscriberId": "939978834",
+            "RecordId": 0
+        }
+    ],
+    "EligibilityFiles": [
+        {
+            "fileName": "main.pdf",
+            "url": "https://sdrcmclaimsscrappersa.blob.core.windows.net/rcm-claims-res-blob/Revenue%20Cycle%20Management/Guardian/U6TX2SDLQ3/8a7f3sd254221edssd/main.pdf",
+            "description": "",
+            "sourceType": "PDF",
+            "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+            "EligibilityVerificationId": 0,
+            "PatientId": "19046",
+            "RcmGridViewId": "25455",
+            "PMSSubscriberId": "939978834",
+            "RecordId": 0
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "Xpaths": [
+        {
+            "Id": 162,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 2,
+            "DataContextId": 196,
+            "XPath": "{\"Click\": null, \"Xpaths\": [{\"UsernameXpath\": \"//input[@id='username']\", \"AdditionalInfo\": {\"StepsAfterUsernameInput\": {\"Click\": [\"//button[@id='signin-button']\"]}}, \"PasswordXpath\": \"//input[@id='current-password']\", \"LoginButtonXpath\": \"//button[@id='signin-button']\", \"OtpInputXpath\": \"//*[@id='mfaSecurityCode']\", \"OtpSubmitXpath\": \"//*[@id='mfaSignInButton']\", \"PreSteps\": [], \"PostSteps\": [\"//*[@id='mfaChallengeButton']\"], \"OtpXpath\": \"//span[@class='letter-message']\", \"OtpInstructions\": {\"OtpEmail\": \"payorportal@sdbmail.com\", \"OtpEmailPassword\": \"\", \"FromEmail\": \"\", \"EmailTitle\": \"Thank you for choosing Guardian\", \"tenantID\": \"e44873dc-54c1-425a-8c70-6bd6ee571de4\", \"clientID\": \"aa33b5af-9a5a-4cb3-b120-2b831663f414\", \"clientSecret\": \"K.g8Q~W6gjw-xk4IE67XzTeA7X2FIcF2ecoyJcnq\", \"SMTPAddress\": \"\", \"EncryptionType\": \"\", \"ImapType\": \"\", \"OtpWait\": 40}}]}",
+            "IsActive": true,
+            "DataContextName": "EligibilityLogin",
+            "ProductCategoryId": 2
+        },
+        {
+            "Id": 163,
+            "ClientId": null,
+            "EligibilityPayorInfoId": 2,
+            "DataContextId": 202,
+            "XPath": "{\"Xpaths\": [{\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"ClaimNumber\"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td[1]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Patient\"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td[2]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"GroupID\"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td[3]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"DateOfService \"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td[4]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"PaidDate\"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td[5]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Check\"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td[6]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Status\"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td/div[@title]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"SubmittedCharges\"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td[8]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Paid\"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td[9]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": \"Letters\"}, \"xpath\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]/td[11]\"}, {\"AdditonalInfo\": {\"Click\": [\"//tr[./td[contains(text(),'{ClaimAmount}')] and ./td[contains(text(),'{DateOfService}')] and ./td[contains(text(),'{FirstName}')]]//following-sibling::td/div[@class='custom-icon-pdf']\"], \"fileds\": [], \"windowChange\": 1, \"window_print\": false}, \"xpath\": \"//*[contains(text(),'Open')]\"}, {\"AdditonalInfo\": {\"Click\": [], \"fileds\": [], \"windowChange\": 1, \"GetPdfFromBase64\": {\"Sleep\": 20, \"Script\": \"return document.getElementsByTagName('embed')[0].getAttribute('src').replace('data:application/pdf;base64,','')\"}}, \"xpath\": \"/htm/gfdd/dfd\"}]}",
+            "IsActive": true,
+            "DataContextName": "RcmEobClaimMaster",
+            "ProductCategoryId": 2
+        }
+    ],
+    "SearchParameters": [
+        {
+            "Id": 47,
+            "EligibilityPayorInfoId": 2,
+            "JsonSettings": "{\"Search\": {\"Settings\": {\"PreSteps\": {\"Clicks\": [\"//button[@type='button']/span[contains(text(),'Claims')]\", \"//div[@id='subnav-rec-box']/div[contains(@class,'sub-menu-item')]/a[contains(@id,'subnav-anchor')]/span[contains(text(),'Claims status')]\", \"//a[@id='startNewSearch']\", \"//*[@id='date-range-listbox-button']\", \"//*[text()='Past year']\"], \"AdditonalInfo\": {\"aftersleep\": 2}}, \"SearchButtonXpath\": \"//button[contains(@id,'search')]\", \"PostSteps\": {\"Clicks\": [], \"AdditonalInfo\": {\"aftersleep\": 5, \"afterwait\": \"//tr[td[contains(text(),'{FirstName}')] and td[contains(text(),'{DateOfService}')] and td[contains(text(),'{ClaimAmount}')]]\"}}}, \"Queries\": [{\"Data\": \"LastName\", \"Xpath\": \"//input[contains(@id,'lastName')]\"}, {\"Data\": \"SubscriberId\", \"Xpath\": \"//input[contains(@id,'memberId')]\"}]}}",
+            "IsActive": true,
+            "ProductCategoryId": 2
+        }
+    ],
+    "InputParameters": {
+        "PayorName": "Guardian",
+        "PayorId": 2,
+        "ClientId": "857dc9bd-c432-482d-af84-437a48ccecfe",
+        "AppName": "Revenue Cycle Management",
+        "ClinicDetails": {
+            "SearchKey": [
+                "2325"
+            ]
+        },
+        "RcmClaimNumber": null,
+        "RcmClinicId": "F068ECC6-C3B6-460A-A13A-54898DF6172F",
+        "file": "RcmEobClaimMaster",
+        "ScheduleId": 601
+    },
+    "PatientData": [
+        {
+            "EligibilityVerificationId": 0,
+            "PatientId": "19046",
+            "AppointmentId": null,
+            "AppointmentDateTime": null,
+            "LastName": "Simpson",
+            "FirstName": "Noah",
+            "FullName": "Noah Simpson",
+            "BirthDate": "03/22/2014",
+            "ClinicZipcode": "63122",
+            "Relationship": null,
+            "ClinicServerId": "0991b8eb-7d97-2bf1-db4e-4dbe82aff602",
+            "ClinicNum": "171389",
+            "RcmClaimNumber": "171389",
+            "ClaimAmount": "220.00",
+            "RcmGridViewId": "25455",
+            "SubscriberId": "939978834",
+            "SubscriberFirstName": "Daniel",
+            "SubscriberLastName": "Simpson",
+            "SubscriberBirthDate": "07/29/1986",
+            "ProviderFirstName": "Allison",
+            "ProviderLastName": "Buford, DDS",
+            "SubscriberZipCode": "63131",
+            "DateOfService": "07/05/2023",
+            "SearchKey": [
+                "2325"
+            ]
+        }
+    ],
+    "Login": {
+        "Url": "https://signin.guardianlife.com/signin",
+        "LoginId": "PayorAccessStLouis1",
+        "Password": "Changeme1!",
+        "OtpRequired": false,
+        "OtpEmail": "TODO"
+    }
+}
